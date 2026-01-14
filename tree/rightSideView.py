@@ -1,10 +1,5 @@
 from collections import deque
-
-class TreeNode:
-    def __init__(self, data):
-        self.data = data
-        self.left = None
-        self.right = None
+from treenode import TreeNode
 
 def rightSideView(root):
     if not root:
